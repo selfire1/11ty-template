@@ -3,4 +3,4 @@ layout: layout.html
 title: About
 ---
 # {{ title }}
-This and that, chitty chat
+Find what I am writing over at my 🪴[digital garden](https://joschuasgarden.com/).
