@@ -1,5 +1,6 @@
 ---
 layout: layout.html
+title: About
 ---
-# About me
+# {{ title }}
 This and that, chitty chat
