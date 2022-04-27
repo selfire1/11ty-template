@@ -1,0 +1,15 @@
+body {
+    font-family: var(--font-default);
+}
+h1 {
+    color: var(--garden-green);
+}
+hr {
+    color: var(--muted);
+    border-style: dashed;
+    border-width: 1px;
+}
+footer {
+    color: var(--muted);
+    font-size: small;
+}
