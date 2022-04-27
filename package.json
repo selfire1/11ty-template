@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx @11ty/eleventy",
-    "watch:sass": "npx sass sass:_site/css --watch"
+    "watch:eleventy": "npx @11ty/eleventy",
+    "watch:sass": "npx sass sass:_site/css --watch",
+    "start": "npm run watch:eleventy & npm run watch:sass"
   },
   "keywords": [],
   "author": "",
