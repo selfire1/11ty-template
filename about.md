@@ -1,6 +1,6 @@
 ---
-layout: layout.html
 title: About
+layout: pages.html
 ---
-# {{ title }}
+# About me
 Find what I am writing over at my 🪴[digital garden](https://joschuasgarden.com/).
