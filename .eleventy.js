@@ -2,12 +2,12 @@
 // https://jkc.codes/blog/using-sass-with-eleventy/
 module.exports = function (eleventyConfig) {
     eleventyConfig.setBrowserSyncConfig({
-        files: './_site/css/**/*.css'
+        files: './public/css/**/*.css'
     });
     return {
         dir: {
             input: "src",
-            ouput: "_site"
+            ouput: "public"
         },
         templateFormats: ['md', 'njk', 'html'],
         markdownTemplateEngine: 'njk',
