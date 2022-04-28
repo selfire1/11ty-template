@@ -8,6 +8,10 @@ module.exports = function (eleventyConfig) {
         dir: {
             input: "src",
             ouput: "_site"
-        }
-    }
+        },
+        templateFormats: ['md', 'njk', 'html'],
+        markdownTemplateEngine: 'njk',
+        htmlTemplateEngine: 'njk',
+        dataTemplateEngine: 'njk'
+    };
 };
