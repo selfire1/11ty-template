@@ -7,6 +7,7 @@ Includes
 * `public` as output directory
 
 Initial run:
-- [ ] `npm init -y`
+- [ ] `npm install`
 - [ ] `mkdir public`
+- [ ] `change `"name` in `package.json``
 `npm start` to run.
