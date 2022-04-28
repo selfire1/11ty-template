@@ -6,4 +6,7 @@ Includes
 * `src` as input directory
 * `public` as output directory
 
+Initial run:
+- [ ] `npm init -y`
+- [ ] `mkdir public`
 `npm start` to run.
